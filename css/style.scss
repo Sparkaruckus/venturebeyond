@@ -374,6 +374,31 @@ footer {
   }
 }
 
+@media (max-width: 414px) {
+  #showcase,
+  #showcase2,
+  #showcase3 {
+    min-height: 575px;
+  }
+
+  .container2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container2 h1 {
+    margin: 10px 0;
+    font-size: 1em;
+  }
+
+  .container2 form {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0 10px 0;
+  }
+}
+
 @media (max-width: 375px) {
   #showcase,
   #showcase2,

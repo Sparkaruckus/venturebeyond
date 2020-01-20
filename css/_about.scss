@@ -1,0 +1,28 @@
+// About Container
+
+// Main Section
+
+.container4 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+// Sidebar
+
+aside {
+  width: 50%;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+// Main-col
+
+article {
+  width: 50%;
+  margin-top: 50px;
+  margin-right: 50px;
+}

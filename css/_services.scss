@@ -1,0 +1,26 @@
+$primary: #11e8f0;
+$secondary: #f4da4c;
+$tertiaryGray: #35424a;
+
+// Main-col
+
+#services {
+  display: flex;
+  flex-direction: column;
+}
+
+#services li {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 40px;
+  border: #9b9b9b solid 0.5px;
+  margin-bottom: 25px;
+  background: #a5a5a5;
+}
+
+// Aside
+aside {
+  display: flex;
+  align-items: center;
+}

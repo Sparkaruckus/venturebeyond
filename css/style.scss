@@ -37,6 +37,17 @@ html {
   scroll-behavior: smooth;
 }
 
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
 .container1 {
   display: flex;
   flex-direction: row;
@@ -105,6 +116,7 @@ header a {
   transition: 0.7s;
   &:hover {
     color: $primary;
+    text-decoration: none;
   }
 }
 
@@ -255,6 +267,23 @@ header .current a {
   width: 250px;
 }
 
+// Carousel
+
+#image-carousel {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel {
+  width: 80%;
+  margin: 100px 0;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  font-size: 5px;
+}
+
 // Boxes Container
 
 #boxes {
@@ -331,6 +360,11 @@ footer {
   #showcase2 p,
   #showcase3 p {
     font-size: 20px;
+  }
+
+  .carousel {
+    width: 90%;
+    margin: 100px 0;
   }
 
   .container2 {

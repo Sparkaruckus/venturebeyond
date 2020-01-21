@@ -172,7 +172,7 @@ header .current a {
   display: flex;
   flex-direction: column;
   min-height: 1000px;
-  background: url("../img/showcase4.jpg") no-repeat center center;
+  background: #0c1a23 url("../img/showcase4.jpg") no-repeat center center;
   text-align: center;
   color: #fff;
 }
@@ -181,7 +181,7 @@ header .current a {
   display: flex;
   flex-direction: column;
   min-height: 1000px;
-  background: url("../img/showcase_about.jpg") no-repeat center center;
+  background: #182827 url("../img/showcase_about.jpg") no-repeat center center;
   text-align: center;
   color: #fff;
 }
@@ -190,7 +190,8 @@ header .current a {
   display: flex;
   flex-direction: column;
   min-height: 1000px;
-  background: url("../img/showcase_services.jpg") no-repeat center center;
+  background: #2d3025 url("../img/showcase_services.jpg") no-repeat center
+    center;
   text-align: center;
   color: #fff;
 }
@@ -224,7 +225,7 @@ header .current a {
 .arrow {
   display: flex;
   justify-content: center;
-  margin: 10px;
+  margin: 20px;
 }
 
 .arrow a {
@@ -277,6 +278,7 @@ header .current a {
 .carousel {
   width: 80%;
   margin: 100px 0;
+  z-index: 0;
 }
 
 .carousel-control-next-icon,

@@ -261,6 +261,10 @@ header .current a {
   color: #f4da4c;
 }
 
+header .current a:hover {
+  color: #11e8f0;
+}
+
 #showcase {
   display: -webkit-box;
   display: -ms-flexbox;

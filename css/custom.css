@@ -258,7 +258,7 @@ header .highlight,
 }
 
 header .current a {
-  border-bottom: #f4da4c 2px solid;
+  color: #f4da4c;
 }
 
 #showcase {

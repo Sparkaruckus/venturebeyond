@@ -162,8 +162,17 @@ header .highlight,
   font-weight: bold;
 }
 
+// hr {
+//   height: 0.25rem;
+//   width: 25%;
+//   margin: 0;
+//   background: $secondary;
+//   border: none;
+//   transition: 0.3s ease-in-out;
+// }
+
 header .current a {
-  border-bottom: $secondary 2px solid;
+  color: $secondary;
 }
 
 // Showcase
